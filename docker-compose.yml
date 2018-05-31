@@ -5,4 +5,4 @@ services:
       context: .
       dockerfile: ./dockerfiles/Dockerfile.ruby
     ports:
-      "9001:9001"
+      - "9001:9001"
