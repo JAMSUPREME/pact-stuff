@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  pact-provider:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/Dockerfile.ruby
+    ports:
+      "9001:9001"
