@@ -1,0 +1,5 @@
+version: '3.4'
+
+services:
+  pact-provider:
+    command: bash -xc "bundle check || bundle install"
