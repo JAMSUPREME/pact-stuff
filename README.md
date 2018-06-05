@@ -15,5 +15,6 @@ Shell into it
 Need the following total:
 - Pact provider
 - Pact client
+- Pact broker
 - Jenkins server for running Pact contract validation? (Maybe we could be lazy and just run a shell script)
 - Ruby app for hosting gems to publish? So we can resolve fakes?
