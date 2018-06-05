@@ -1,0 +1,29 @@
+{
+  "consumer": {
+    "name": "Client App"
+  },
+  "provider": {
+    "name": "Remote Service"
+  },
+  "interactions": [
+    {
+      "description": "a request for hi",
+      "providerState": "there is a remote server",
+      "request": {
+        "method": "get",
+        "path": "/"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": "hi"
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

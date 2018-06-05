@@ -1,0 +1,37 @@
+I, [2018-06-05T16:24:30.662825 #14340]  INFO -- : Cleared interactions for example "RemoteClient::When calling remote hello"
+I, [2018-06-05T16:24:30.665253 #14340]  INFO -- : Registered expected interaction GET /
+D, [2018-06-05T16:24:30.665426 #14340] DEBUG -- : {
+  "description": "a request for hi",
+  "providerState": "there is a remote server",
+  "request": {
+    "method": "get",
+    "path": "/"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": "hi"
+  }
+}
+I, [2018-06-05T16:24:30.672223 #14340]  INFO -- : Received request GET /
+D, [2018-06-05T16:24:30.672356 #14340] DEBUG -- : {
+  "path": "/",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:9002",
+    "Accept": "*/*",
+    "User-Agent": "Typhoeus - https://github.com/typhoeus/typhoeus",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-06-05T16:24:30.672529 #14340]  INFO -- : Found matching response for GET /
+D, [2018-06-05T16:24:30.672614 #14340] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": "hi"
+}
+I, [2018-06-05T16:24:30.674885 #14340]  INFO -- : Verifying - interactions matched for example "RemoteClient::When calling remote hello"
+I, [2018-06-05T16:24:30.691471 #14340]  INFO -- : Writing pact for Remote Service to /home/jam/RubymineProjects/sinatra-1/spec/pacts/client_app-remote_service.json

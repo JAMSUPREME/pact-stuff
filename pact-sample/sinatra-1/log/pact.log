@@ -1,0 +1,23 @@
+# Logfile created on 2018-06-05 16:18:54 -0400 by logger.rb/56815
+I, [2018-06-05T16:18:54.046543 #13900]  INFO -- : Starting app Remote Service #<Pact::MockService::App:0x0000560d916d5de0> on port 11001...
+I, [2018-06-05T16:18:54.155028 #13900]  INFO -- : Started on port 11001
+I, [2018-06-05T16:19:35.697666 #14009]  INFO -- : Starting app Remote Service #<Pact::MockService::App:0x00005561ba6ef160> on port 11001...
+I, [2018-06-05T16:19:35.813881 #14009]  INFO -- : Started on port 11001
+I, [2018-06-05T16:19:35.835933 #14009]  INFO -- : Clearing all expectations
+I, [2018-06-05T16:19:35.841237 #14009]  INFO -- : Verifying interactions for RemoteClient::When calling remote hello
+D, [2018-06-05T16:19:35.875915 #14009] DEBUG -- : Supposed to be stopping
+I, [2018-06-05T16:19:58.259669 #14066]  INFO -- : Starting app Remote Service #<Pact::MockService::App:0x00005594a711f648> on port 11001...
+I, [2018-06-05T16:19:58.369702 #14066]  INFO -- : Started on port 11001
+I, [2018-06-05T16:19:58.410913 #14066]  INFO -- : Clearing all expectations
+I, [2018-06-05T16:19:58.420683 #14066]  INFO -- : Verifying interactions for RemoteClient::When calling remote hello
+D, [2018-06-05T16:19:58.423046 #14066] DEBUG -- : Supposed to be stopping
+I, [2018-06-05T16:20:49.515475 #14142]  INFO -- : Starting app Remote Service #<Pact::MockService::App:0x00005560654d45e8> on port 11001...
+I, [2018-06-05T16:20:49.625582 #14142]  INFO -- : Started on port 11001
+I, [2018-06-05T16:20:49.672483 #14142]  INFO -- : Clearing all expectations
+I, [2018-06-05T16:20:49.681401 #14142]  INFO -- : Verifying interactions for RemoteClient::When calling remote hello
+D, [2018-06-05T16:20:49.684109 #14142] DEBUG -- : Supposed to be stopping
+I, [2018-06-05T16:24:30.525653 #14340]  INFO -- : Starting app Remote Service #<Pact::MockService::App:0x000055917c64e598> on port 9002...
+I, [2018-06-05T16:24:30.637185 #14340]  INFO -- : Started on port 9002
+I, [2018-06-05T16:24:30.661081 #14340]  INFO -- : Clearing all expectations
+I, [2018-06-05T16:24:30.673294 #14340]  INFO -- : Verifying interactions for RemoteClient::When calling remote hello
+D, [2018-06-05T16:24:30.692531 #14340] DEBUG -- : Supposed to be stopping

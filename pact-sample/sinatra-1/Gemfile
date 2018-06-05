@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+# web server
+gem 'sinatra'
+gem 'thin'
+
+# testing
+gem 'minitest'
+gem 'rack-test'
+
+# rake tasks
+gem 'rake'
+
+# making HTTP requests
+gem 'typhoeus'
+
+# Pact-related
+gem 'pact'
+gem 'pact-consumer-minitest'
