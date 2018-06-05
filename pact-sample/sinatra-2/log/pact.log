@@ -1,0 +1,12 @@
+# Logfile created on 2018-06-05 16:49:13 -0400 by logger.rb/56815
+I, [2018-06-05T16:49:13.640953 #15318]  INFO -- : Running example 'Verifying a pact between Client App and Remote Service Given there is a remote server a request for hi with GET / returns a response which has status code 200'
+I, [2018-06-05T16:49:13.641509 #15318]  INFO -- : Running example 'Verifying a pact between Client App and Remote Service Given there is a remote server a request for hi with GET / returns a response which has a matching body'
+I, [2018-06-05T16:53:02.594759 #15452]  INFO -- : Running example 'Verifying a pact between Client App and Remote Service Given there is a remote server a request for hi with GET / returns a response which has status code 200'
+I, [2018-06-05T16:53:02.595307 #15452]  INFO -- : Running example 'Verifying a pact between Client App and Remote Service Given there is a remote server a request for hi with GET / returns a response which has a matching body'
+I, [2018-06-05T16:53:07.563363 #15489]  INFO -- : Running example 'Verifying a pact between Client App and Remote Service Given there is a remote server a request for hi with GET / returns a response which has status code 200'
+I, [2018-06-05T16:53:07.563843 #15489]  INFO -- : Running example 'Verifying a pact between Client App and Remote Service Given there is a remote server a request for hi with GET / returns a response which has a matching body'
+I, [2018-06-05T16:54:03.117112 #15552]  INFO -- : Running example 'Verifying a pact between Client App and Remote Service Given there is a remote server a request for hi with GET / returns a response which has status code 200'
+I, [2018-06-05T16:54:03.117266 #15552]  INFO -- : Sending GET request to path: "/" with headers: {}, see debug logs for body
+D, [2018-06-05T16:54:03.117305 #15552] DEBUG -- : body :
+I, [2018-06-05T16:54:03.138745 #15552]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"text/html;charset=utf-8", "Content-Length"=>"2", "X-XSS-Protection"=>"1; mode=block", "X-Content-Type-Options"=>"nosniff", "X-Frame-Options"=>"SAMEORIGIN"}, see debug logs for body
+D, [2018-06-05T16:54:03.138816 #15552] DEBUG -- : body: hi
